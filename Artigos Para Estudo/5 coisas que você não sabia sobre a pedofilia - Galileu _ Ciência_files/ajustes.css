@@ -1,0 +1,125 @@
+.subhome #box-destaques-primarios-subhome .titulo-pagina{
+  margin-top:0px !important;
+}
+
+#ultimas_noticias .item .titulo-materia {
+    color: #000000;
+}
+
+.home .box-revista-materias .galileu-slider.touchcarousel {
+  height: 227px !important;
+}
+
+.carousel-caption a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.home .box-colunistas .galileu-slider.touchcarousel {
+    height: 220px !important;
+}
+
+/* Css para materia de colunista */
+
+.colunista .autor {
+    text-align: left !important;
+}
+
+.header-materia .banner {
+    max-width: 100%;
+}
+
+/*.galeria-home .banner, .lista .banner, .blog-home .banner, .subhome .banner,
+.colunista-materia .banner {
+    text-align: center;
+    padding: 15px 0 10px 0;
+}*/
+
+#sidebar .banner {
+  padding-top: 0px !important;
+}
+
+/* Correcao capa assine-ja */
+#main-header .header .box-assine-ja {
+    top: -1px !important;
+}
+
+/*  Corrigindo alinhamento de itens de menu diretorio institucional */
+.footer-content .box-nav {
+  text-align: left !important;
+}
+
+/* Corrigindo altura para secao de itens de diretorio */
+#main-footer .footer-content {
+    height: auto !important;
+    min-height: 300px;
+}
+
+/* Corrigindo tamanho de fonte dos itens do direitorio institucional */
+#main-footer .footer-grupo {
+  font-size: 13px !important;
+}
+
+/* Corrigindo box-colunistas */
+.home .box-colunistas .galileu-slider .colunista .link-materia .titulo-materia {
+    font-family: "Archivo Narrow","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    line-height: 20px !important;
+    text-transform: none !important;
+}
+
+/* Corrigindo alinhamento de texto no menú  */
+#main-header .menu-principal .main-nav .item-nav .sub-menu .ultimas-noticias .noticia .box-conteudo {
+    text-align: left;
+    line-height: 22px;
+}
+
+/* Corrigindo espaçamento dos itens do menú institucional */
+#main-footer .footer-grupo .divisor {
+    margin: 0 11px !important;
+}
+
+/* Corrigindo alinhamento no destaque leia-tambem bottom de materia */
+.materia-home .box-noticias-relacionadas-conteudo .noticias {
+    display: inline-table !important;
+}
+
+/* Corrigindo tamanho da caixa de comentario */
+.glbComentarios .glbComentarios-formulario-inicial input.glbComentarios-formulario-texto-inicial {
+    height: 25px!important;
+}
+
+/* Ajustando tamanho da publicidade na sidebar de home */
+#widget-publicidade embed {
+    width: 100% !important;
+    min-width: 261px !important;
+}
+
+#widget-publicidade iframe {
+    width: 100% !important;
+    min-width: 261px !important;
+}
+/*
+.banner {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+#leia-tambem-horizontal{
+    margin-bottom:40px;
+}*/
+
+.facebook-header {
+    float:left;
+    margin-top: 4px;
+    margin-right:10px;
+}
+
+#main-header .box-social .botao-social {
+    margin-right:5px !important;
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+  #main-header .box-social .botao-social {
+      margin-right:7px !important;
+  }
+}

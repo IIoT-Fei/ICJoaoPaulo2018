@@ -1,0 +1,324 @@
+.barra-social-desktop {
+  font-family: Arial;
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 0.06em;
+  line-height: 28px;
+  height: 29px;
+  width:383px;
+  margin:0 auto;
+}
+.barra-social-desktop a {
+  font-family: Arial;
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 0.06em;
+  line-height: 28px;
+}
+.barra-social-desktop a:hover {
+  text-decoration: none;
+}
+.barra-social-desktop .share-facebook {
+  width: 103px;
+  height: 29px;
+  background-color: #3a5a9e;
+  float: left;
+  margin-right: 3px;
+  cursor: pointer;
+  text-align: left;
+}
+.barra-social-desktop .share-facebook figure {
+  background: url('../img/barra-social/facebook-desktop.png') no-repeat;
+  width: 9px;
+  height: 29px;
+  float: left;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 6px;
+}
+.barra-social-desktop .share-pinterest {
+  width: 33px;
+  height: 29px;
+  background-color: #cd202a;
+  float: left;
+  margin-right: 3px;
+  cursor: pointer;
+}
+.barra-social-desktop .share-pinterest figure {
+  background: url('../img/barra-social/pinterest-desktop.png') no-repeat;
+  width: 33px;
+  height: 29px;
+  background-position: center;
+  margin: 0px 
+}
+.barra-social-desktop .share-linkedin {
+  width: 35px;
+  height: 29px;
+  background-color: #137bbb;
+  float: left;
+  margin-right: 3px;
+  cursor: pointer;
+}
+.barra-social-desktop .share-linkedin figure {
+  background: url('../img/barra-social/linkedin-desktop.png') no-repeat;
+  width: 35px;
+  height: 29px;
+  background-position: center;
+  margin: 0px 
+}
+.barra-social-desktop .share-googleplus {
+  width: 32px;
+  height: 29px;
+  background-color: #d95031;
+  float: left;
+  margin-right: 3px;
+  cursor: pointer;
+}
+.barra-social-desktop .share-googleplus figure {
+  background: url('../img/barra-social/google-plus-novo.png') no-repeat;
+  width: 32px;
+  height: 29px;
+  background-position: center;
+  margin: 0px 
+}
+.barra-social-desktop .share-twitter {
+  width: 33px;
+  height: 29px;
+  background-color: #26aae1;
+  float: left;
+  margin-right: 3px;
+  cursor: pointer;
+}
+.barra-social-desktop .share-twitter figure {
+  background: url('../img/barra-social/twitter-desktop.png') no-repeat;
+  width: 33px;
+  height: 29px;
+  background-position: center;
+  margin: 0px 
+}
+.barra-social-desktop .comentario {
+  width: 33px;
+  height: 29px;
+  background-color: #676767;
+  float: left;
+  margin-right: 3px;
+  cursor: pointer;
+}
+.barra-social-desktop .comentario figure {
+  background: url('../img/barra-social/comentario.png') no-repeat;
+  width: 33px;
+  height: 29px;
+  background-position: center;
+  margin: 0px 
+}
+
+.barra-social-desktop .share-assine {
+  width: 96px;
+  height: 29px;
+  background-color: #3a3a3a;
+  float: left;
+  cursor: pointer;
+}
+
+.assine-barra-compartilhe{
+  height: 27px;
+  background-color: #3a3a3a;
+  float: left;
+  cursor: pointer;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.barra-social-desktop .share-assine figure {
+  background: url('../img/barra-social/assine-desktop.png') no-repeat;
+  width: 14px;
+  height: 15px;
+  float: left;
+  margin-top: 8px;
+  margin-left: 10px;
+  margin-right: 6px;
+}
+
+.barra-social-degrade {
+  height: 10px;
+  width: 100%;
+  background: url('../img/barra-social/barra-social-degrade.png') no-repeat;
+  background-size: 100%;
+  position: fixed;
+  bottom: 42px;
+  z-index: 999999999;
+  left: 0;
+}
+.barra-social-tablet {
+  height: 43px;
+  background-color: white;
+  bottom: 0;
+  padding-top: 1px;
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 999999999;
+  left: 0;
+}
+.barra-social-tablet div {
+  margin-right: 7%;
+  cursor: pointer;
+}
+.barra-social-tablet .share-facebook {
+  width: 52px;
+  height: 41px;
+  float: left;
+  margin-top: 1px;
+  margin-left: 13%;
+}
+.barra-social-tablet .share-facebook figure {
+  background: url('../img/barra-social/facebook-smartphone.png') no-repeat;
+  width: 52px;
+  height: 41px;
+}
+.barra-social-tablet .share-pinterest {
+  width: 53px;
+  height: 41px;
+  float: left;
+  margin-top: 1px;
+}
+.barra-social-tablet .share-pinterest figure {
+  background: url('../img/barra-social/pinterest-smartphone.png') no-repeat;
+  width: 53px;
+  height: 41px;
+}
+.barra-social-tablet .share-linkedin {
+  width: 52px;
+  height: 41px;
+  float: left;
+  margin-top: 1px;
+}
+.barra-social-tablet .share-linkedin figure {
+  background: url('../img/barra-social/linkedin-smartphone.png') no-repeat;
+  width: 52px;
+  height: 41px;
+}
+.barra-social-tablet .share-googleplus {
+  width: 52px;
+  height: 41px;
+  float: left;
+  margin-top: 1px;
+}
+.barra-social-tablet .share-googleplus figure {
+  background: url('../img/barra-social/googleplus-smartphone.png') no-repeat;
+  width: 52px;
+  height: 41px;
+}
+.barra-social-tablet .share-twitter {
+  width: 53px;
+  height: 41px;
+  float: left;
+  margin-top: 1px;
+}
+.barra-social-tablet .share-twitter figure {
+  background: url('../img/barra-social/twitter-smartphone.png') no-repeat;
+  width: 53px;
+  height: 41px;
+}
+.barra-social-tablet .share-whatsapp {
+  width: 52px;
+  height: 41px;
+  float: left;
+  margin-top: 1px;
+  margin-right: 0px;
+}
+.barra-social-tablet .share-whatsapp figure {
+  background: url('../img/barra-social/whatsapp-smartphone.png') no-repeat;
+  width: 52px;
+  height: 41px;
+}
+
+@media only screen and (min-width: 1200px){
+    .barra-social-degrade{
+        display: none !important;
+    }
+
+    .barra-social-tablet{
+         display: none !important;
+    }
+}
+
+@media only screen and (min-width: 758px) and (max-width: 833px) {
+  .barra-social-tablet div {
+    margin-right: 6%;
+  }
+}
+@media only screen and (min-width: 695px) and (max-width: 757px) {
+  .barra-social-tablet div {
+    margin-right: 5%;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 694px) {
+  .barra-social-tablet div {
+    margin-right: 4%;
+  }
+}
+@media only screen and (min-width: 596px) and (max-width: 640px) {
+  .barra-social-tablet .share-facebook {
+    margin-left: 16%;
+  }
+  .barra-social-tablet div {
+    margin-right: 3%;
+  }
+}
+@media only screen and (min-width: 557px) and (max-width: 595px) {
+  .barra-social-tablet div {
+    margin-right: 2%;
+  }
+}
+@media only screen and (max-width: 556px) {
+  .barra-social-tablet div {
+    margin-right: 2%;
+  }
+}
+@media only screen and (max-width: 487px) {
+  .barra-social-tablet .share-facebook {
+    margin-left: 11%;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .barra-social-tablet .share-facebook {
+    margin-left: 7%;
+  }
+}
+@media only screen and (max-width: 409px) {
+  .barra-social-tablet .share-facebook {
+    margin-left: 5%;
+  }
+}
+@media only screen and (max-width: 384px) {
+  .barra-social-tablet div {
+    margin-right: 1%;
+  }
+}
+@media only screen and (max-width: 352px) {
+  .barra-social-tablet .share-facebook {
+    margin-left: 2%;
+  }
+}
+@media only screen and (max-width: 338px) {
+  .barra-social-tablet .share-facebook {
+    margin-left: 1%;
+  }
+}
+@media only screen and (max-width: 335px) {
+  .barra-social-tablet .share-facebook {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 332px) {
+  .barra-social-tablet .share-facebook {
+    margin-left: 0px;
+  }
+  .barra-social-tablet div {
+    margin-right: 1px;
+  }
+}
+
+/*google-plus-novo
+comentario.png*/

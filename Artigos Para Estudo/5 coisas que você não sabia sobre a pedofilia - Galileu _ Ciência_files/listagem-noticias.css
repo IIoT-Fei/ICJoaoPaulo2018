@@ -1,0 +1,60 @@
+.box-listagem-padrao {
+    border: 1px solid #C3C3C3;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
+    padding: 20px;
+    position: relative;
+}
+.box-listagem-padrao ol {
+    list-style: none outside none;
+    margin: 0;
+}
+.box-listagem-padrao ol li {
+    margin: 0;
+}
+.box-listagem-padrao .icone {
+    display: block;
+    height: 40px;
+    left: 12px;
+    position: absolute;
+    top: -20px;
+    width: 40px;
+}
+.box-listagem-padrao .icone span {
+    display: none;
+}
+.box-listagem-padrao .posicao {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #11B3A8;
+    display: block;
+    font-size: 25px;
+    font-style: italic;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 60px;
+}
+.box-listagem-padrao .posicao + * {
+    border-top: 1px solid #C9C9C9;
+    margin-top: -18px;
+    padding-top: 18px;
+}
+.box-listagem-padrao .linha {
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+}
+.box-listagem-padrao .titulo {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 20px;
+    margin: 0 0 10px;
+    text-align: center;
+}
+.box-listagem-padrao .titulo a {
+    color: #292828;
+    font-weight: normal;
+}
+.box-mais-lidas .icone {
+    background: url("../../img/ico-mais-lidas.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}

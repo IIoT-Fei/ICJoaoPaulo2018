@@ -1,0 +1,38 @@
+(function() {
+    var sc = document.createElement('script');
+    sc.type = 'text/javascript';
+    sc.async = 'true';
+    sc.src='//dco.smartclip.net/?plc=88786',
+        sc.onload = sc.onreadystatechange = function() {
+            var rs = this.readyState;
+            if (rs && rs != 'complete' && rs != 'loaded') return;
+            try {
+                SmartPlay('', {
+                    adRequest: {
+                        flash: '//ad.sxp.smartclip.net/select?type=dyn&ple=revistagalileu.br.intxt.cors.smartclip~~400x320&cu_smar_cors=1&smar_cors=1&fwd_dt1=&fwd_dt2=&fwd_sz=400x320&&ang_contxt=1&inswipe=[ALLOWINSWIPE]&optout=&consent=&rnd=77056047',
+                        html: '//ad.sxp.smartclip.net/select?type=dyn&ple=revistagalileu.br.intxt.html5.smartclip~~400x320&cu_smar_cors=1&smar_cors=1&fwd_dt1=&fwd_dt2=&fwd_sz=400x320&&ang_contxt=1&inswipe=[ALLOWINSWIPE]&optout=&consent=&rnd=77056047'
+                    },
+                    minAdWidth: 200,
+                    maxAdWidth: 1100,
+                    elementLocator: {
+                        minimumElementWidth: 200,
+                        scanPixelsBelowViewport: 800
+                    },
+                    behaviourMatrix: {
+                        'offScreen': { paused: false, muted: true },'onClick': {paused:true,muted:false}
+                    },
+                    onStartCallback: (function() {
+                        try { sc_smartIntxtStart(); } catch (f) {} 
+                    }),
+                    onCappedCallback: (function() {
+                        try { sc_smartIntxtNoad(); } catch (f) {} 
+                    }),
+                    onEndCallback: (function() {
+                        try { sc_smartIntxtEnd(); } catch (f) {} 
+                    })
+                });
+            } catch (e) {}
+        };
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(sc, s);
+})();

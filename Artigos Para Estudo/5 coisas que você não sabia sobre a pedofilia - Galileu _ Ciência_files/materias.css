@@ -1,0 +1,208 @@
+.materia-home .box-materia .foto img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+
+  .materia-home .box-materia .foto img {
+      display: block;
+      height: auto!important;
+      width: 100%!important;
+  }
+
+  .materia-home .box-materia .texto .componente_materia.foto{
+    margin-right:0;
+  }
+
+}
+
+.texto .frase-materia {
+    color: #000 !important;
+    float: left;
+    font-size: 35px;
+    font-style: italic;
+    line-height: 40px;
+    margin: -7px 10px 10px 0;
+}
+
+.autor {
+    font-size: 15px;
+    color: #000000;
+    text-align: right;
+}
+
+.blog-home .artigo .texto .componente_materia,
+.materia-home .box-materia .texto .componente_materia {
+    float: left;
+    margin: 0 1.75em 2.5em 0;
+    position: relative;
+}
+
+
+
+.texto .youtube {
+    float: left;
+    position: relative;
+    padding-top: 30px;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 15px 15px auto;
+}
+
+.texto .youtube iframe, .texto .youtube object, .texto .youtube embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box-materia .texto .expandido {
+    width: 300px;
+}
+
+.frase-materia {
+    width: 290px;
+}
+
+.olho {
+    width: 190px;
+    color: #22BCB7;
+    font-size: 25px;
+    font-style: italic;
+    margin-right:15px !important;
+}
+
+.saibamais {
+    width: 40%;
+}
+
+.saibamais strong {
+    background: url("../../img/bg-saiba-mais.jpg") repeat-x center top; clear: both; margin-bottom:30px; margin-top:20px;;
+    color: #FFFFFF;
+    display: block;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 0 0 0 10px;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Archivo Narrow","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.saibamais ul li {
+    list-style-type: none;
+    display: block;
+    margin-bottom: 15px;
+    font-family: "Archivo Narrow","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.saibamais a {
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.saibamais a:hover {
+    color:#000;
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.foto strong, .foto-legenda {
+    color: #767676;
+    font-family: 'Arial';
+    font-size: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.intertitulo {
+    clear: both;
+    color: #000 !important;
+    display: block;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    letter-spacing: -0.025em;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.materia-home #sidebar .box-noticias-relacionadas-sidebar .box-noticias.primeiro .conteudo {
+    height: 100%;
+}
+
+.pin-it-button{
+    background-color: #D32639;
+    display: block;
+    opacity: 0.9;
+    filter:alpha(opacity=90);
+    padding: 5px 15px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.materia-home .box-materia .texto p .intro {
+  margin: 0 10px 10px 0 !important;
+}
+
+.materia-destaques a {
+     color: #FFFFFF !important;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 1024px;
+  }
+  .materia-home .box-materia .texto p {
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+.materia-home{
+  margin-top:25px;
+}
+
+.materia-home .box-materia .banner-bottom {
+    margin: 0px;
+    text-align: center;
+}
+
+.materia-home #sidebar .box-noticias-relacionadas-sidebar .box-noticias.primeiro .conteudo {
+    height: 52%;
+}
+
+/* Ajustando tamanho da publicidade na sidebar de matÃ©ria */
+#widget-publicidade embed {
+    width: 100% !important;
+}
+
+#widget-publicidade iframe {
+    width: 100% !important;
+}
+
+.banner {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.banner.banner-topo{
+  margin-top:10px;
+  margin-bottom:0;
+}
+
+#leia-tambem-horizontal{
+    margin-bottom:40px;
+}
+
+.banner-topo-fixed.banner-topo{
+  margin: 0;
+}

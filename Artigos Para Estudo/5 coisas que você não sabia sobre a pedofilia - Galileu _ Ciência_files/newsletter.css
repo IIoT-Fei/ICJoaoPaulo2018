@@ -1,0 +1,31 @@
+.popup-bkg-shadow {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 214740;
+}
+
+.popup-newsletters {
+    display: none;
+    font-family: 'Convergence',sans-serif;
+    margin: 35px 0;
+    position: absolute;
+    top: 0;
+    width: 554px;
+    z-index: 214741;
+}
+
+#lightboxOverlay {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: none;
+    left: 0;
+    opacity: 0.55;
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+}

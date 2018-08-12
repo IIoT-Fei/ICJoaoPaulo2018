@@ -1,0 +1,1 @@
+document.write('<script type="text\/javascript">\r\n  var r=Math.round(Math.random()*1e8);var s=document.createElement("script");\r\n  var t="\/\/des.smartclip.net\/ads?type=dyn&plc=88786&sz=400x320&rnd="+r;\r\n  s.type="text\/javascript";s.src=t;document.body.appendChild(s);\r\n<\/script>');

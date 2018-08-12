@@ -1,0 +1,13 @@
+
+.colunistas-home p {
+    color: #333333;
+    font-family: "Archivo Narrow","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+.colunistas-home .colunistas .first-colunista {
+    margin-top: 0 !important;
+}
+
+@media only screen and (max-width: 767px) {}
